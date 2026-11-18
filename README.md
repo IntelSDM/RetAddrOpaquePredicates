@@ -11,6 +11,12 @@ This allows it to defeat AI, SMT, Symbolic Execution and any other static liftin
 <img width="1967" height="419" alt="image" src="https://github.com/user-attachments/assets/20787c0c-973b-46af-8f9a-1e298c17260c" /><br>
 <img width="1973" height="735" alt="image" src="https://github.com/user-attachments/assets/b2204b21-0f0a-4b6c-92aa-6a8bd440b7a7" /><br>
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
+
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
 * Download [VCPKG](https://github.com/microsoft/vcpkg)
